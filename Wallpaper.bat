@@ -1,12 +1,12 @@
 @echo off
 title Automated Wallpaper Changer
-echo Automated Wallpaper Changer v1.4 (Noordereiland)
-echo Written by Foxydiot. Studentnr 1052149
+echo Automated Wallpaper Changer v1.4
+echo Written by Foxydiot
 timeout 2 > NUL
 cls
 echo Attempting to set wallpaper...
 timeout 2 > NUL
-reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "\\shome05.hrnet.hro.nl\1052149\Documents\My Pictures\developed\DSC_0178.jpg" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "{Wallpaper location here}" /f
 cls
 echo Attempting to set wallpaper...
 echo Registry change done.
